@@ -1,0 +1,44 @@
+.blog-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  min-height: 30vh;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  margin: 25px;
+}
+
+.posts {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.posts > a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.posts > h2 {
+  margin: 10px 0px 10px 0px;
+  font-size: 40px;
+}
+
+.posts > p {
+  margin: 10px 0px 70px 0px;
+  font-size: 22px;
+}
+
+#space {
+  color: blueviolet;
+}
+
+#time {
+  color: tomato;
+}
+
+footer {
+  background-color: beige;
+}
