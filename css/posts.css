@@ -82,3 +82,10 @@ button {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 600px) {
+  section.main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

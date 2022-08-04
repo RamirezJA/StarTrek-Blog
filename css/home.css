@@ -42,3 +42,10 @@
 footer {
   background-color: beige;
 }
+
+@media (max-width: 600px) {
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
